@@ -1,0 +1,21 @@
+app-menu {
+    position: absolute;
+    top: 0;
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #c0c0c06b;
+    box-shadow: 0px 1px 1px 1px rgba(33, 37, 41, 0.2);
+}
+
+.box {
+    background: rgb(183,0,131); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(183,0,131,1) 0%, rgba(165,168,204,1) 31%, rgba(93,206,202,1) 63%, rgba(0,85,155,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(183,0,131,1) 0%,rgba(165,168,204,1) 31%,rgba(93,206,202,1) 63%,rgba(0,85,155,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(183,0,131,1) 0%,rgba(165,168,204,1) 31%,rgba(93,206,202,1) 63%,rgba(0,85,155,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b70083', endColorstr='#00559b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    height: 100vh;
+    color: #fff;
+    font-family: Roboto Slab,Times New Roman,serif;
+}

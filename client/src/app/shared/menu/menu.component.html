@@ -1,0 +1,10 @@
+<nav class="navbar container">
+  <img [src]="logo" alt="Task Manager" routerLink="">
+  <span *ngIf="login === false" mat-raised-button (click)="openDialog()">Login</span>
+
+
+  <span *ngIf="login === true" mat-raised-button (click)="logoutAuth()">Logout</span>
+
+  <span routerLink="/board">Board</span>
+  <span routerLink="">Home</span>
+</nav>
